@@ -1,0 +1,33 @@
+Programacion I:
+- Funciones
+- Structs
+- Ciclos 
+- Condicionales
+- Arreglos/Matrices
+
+Programación II: 
+- Punteros
+- Memoría dinámica
+- Ficheros de texto (txt, csv…)
+- Binarios
+      -    Clases y modularización
+      -    Librerías  
+
+
+- PARA LA PRÓXIMA CLASE HACER LO DE GIT Y LEER PUNTEROS
+- Descargar e instalar git
+- Crear cuenta en Github
+- Configurar credenciales git
+- Crear repositorio 
+- git innit
+- git remote add origin url
+- git add <nombrearchivo>
+- git commit “<mensaje>”
+- git push
+
+
+
+	0412-76669124
+	Classroom: SKZr4qXy
+Git (control de versión, commits)
+Github (Plataforma de control de versiones, repositorios) -> minimo 3 commits en dias distintos
