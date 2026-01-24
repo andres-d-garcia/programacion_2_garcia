@@ -1,9 +1,18 @@
 # 🖥️ PROGRAMACION II - Andrés García 🖥️
-<div display=inline-flex;>
-  <p align="center"><img width="240" height="240" alt="image" src="https://github.com/user-attachments/assets/7e18c8df-018f-4d42-9ceb-b2ece23e0f70" />
-></p>
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/6380f9d8-9b1a-4960-8817-a95e36a07abf">
-</p>
+
+<div align="center">
+  <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+    <div style="text-align: center; margin: 10px;">
+      <img src="https://github.com/user-attachments/assets/6380f9d8-9b1a-4960-8817-a95e36a07abf" width="200">
+    </div>
+    <div style="text-align: center; margin: 10px;">
+      <img src="https://github.com/user-attachments/assets/7e18c8df-018f-4d42-9ceb-b2ece23e0f70" width="200">
+    </div>
+    <div style="text-align: center; margin: 10px;">
+      <img src="https://ejemplo.com/imagen3.jpg" width="200">
+    </div>
+  </div>
 </div>
+
+
 ## ⭐ Acerca del repositorio:
