@@ -17,7 +17,7 @@
 - ##  🎈*Acerca de mí:*
   Curse mis estudios de bachillerato en el Liceo Los Robles, donde tuve mis primeras experiencias en el área de la programación (HTML, CSS, JavaScript) y en el área de la robotica (Programación en bloques, Python y Pybricks) e incluso llegue a participar en las WRO nacionales, actualmente estoy cursando mi 4to trimestre en la universidad, habiendo ya visto Programación I y sus conceptos, estoy ansioso de aprender nuevos conocimientos!!!     
 
-- ### 💿 *Mi equipo:*
+- ## 💿 *Mi equipo:*
   - MSI Thin 15 Gaming Laptop RTX 4050
   - Pura fé
 
