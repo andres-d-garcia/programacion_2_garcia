@@ -13,7 +13,7 @@
 - ## ### ⭐ *Acerca del repositorio:*
   Este repositorio documenta mi trayectoria durante el trimestre en la Universidad Rafael Urdaneta. Aquí encontrarás todos mis ejercicios, prácticas y proyectos desarrollados como parte del aprendizaje continuo en la materia.
 
-  <img src="https://media1.tenor.com/m/xI4qr0QMW6wAAAAd/lightning-cat.gif">
+<img width="463" height="498" alt="image" src="https://github.com/user-attachments/assets/b277537d-2dc2-45a2-ae4b-96d3a9e21403" />
 
 - ## ### 🎈*Acerca de mí:*
   Curse mis estudios de bachillerato en el Liceo Los Robles, donde tuve mis primeras experiencias en el área de la programación (HTML, CSS, JavaScript) y en el área de la robotica (Programación en bloques, Python y Pybricks) e incluso llegue a participar en las WRO nacionales, actualmente estoy cursando mi 4to trimestre en la universidad, habiendo ya visto Programación I y sus conceptos, estoy ansioso de aprender nuevos conocimientos!!     
