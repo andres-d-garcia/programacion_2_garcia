@@ -11,3 +11,4 @@
 
 
 ### ⭐ *Acerca del repositorio:*
+  Este repositorio documenta mi trayectoria durante el trimestre en la Universidad Rafael Urdaneta. Aquí encontrarás todos mis ejercicios, prácticas y proyectos desarrollados como parte del aprendizaje continuo en la materia.
