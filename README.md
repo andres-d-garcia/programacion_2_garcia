@@ -1,4 +1,4 @@
-# 🖥️ PROGRAMACION II - Andrés García 🖥️
+# 🖥️ *PROGRAMACION II - Andrés García* 🖥️
 ## 📘 *Universidad Rafael Urdaneta | 2026-A*
 
 <div align="center">
@@ -10,4 +10,4 @@
 </div>
 
 
-### ⭐ Acerca del repositorio:
+### ⭐ *Acerca del repositorio:*
