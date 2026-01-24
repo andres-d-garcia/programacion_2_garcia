@@ -14,7 +14,7 @@
   Este repositorio documenta mi trayectoria durante el trimestre en la Universidad Rafael Urdaneta. Aquí encontrarás todos mis ejercicios, prácticas y proyectos desarrollados como parte del aprendizaje continuo en la materia.
   
 <div align="center">
-<img width="200" src="https://c.tenor.com/xI4qr0QMW6wAAAAC/tenor.gif" />
+<img width="200" src="https://media1.tenor.com/m/xI4qr0QMW6wAAAAC/lightning-cat.gif" />
 </div>
 
 - ## ### 🎈*Acerca de mí:*
