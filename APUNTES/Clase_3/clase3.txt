@@ -1,0 +1,25 @@
+Maracaibo, 6 de febrero de 2026
+
+- Se va a hacer un sistema de inventario, con structs dinamicas
+
+    -Info. sistema
+    -Compra
+        - ID
+        - Monto
+        - Fecha
+        - Productos[]
+    -Venta
+        - ID
+        - Monto
+        - Fecha
+        - Productos[]
+    -Productos
+        -Nombre
+        -Precio
+        -ID
+        -Lugar
+        -Descrip
+        -Unidad de alm
+        -F. de vencimiento
+    -Proveedores 
+        -Nombre

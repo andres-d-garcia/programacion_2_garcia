@@ -62,8 +62,8 @@ float* crearArreglo(int tamanio) {
     } 
    float *Arreglo = new float[tamanio]; // asignacion dinamica de memoria
    if (Arreglo == nullptr){
-        cout << "Error: No se pudo asignar memoria para el arreglo." << endl;
-        return nullptr; 
+        cout << "Error: No se pudo asignar memoria para el arreglo, coloca de nuevo el tamaño." << endl;
+        cin >> tamanio;
    }
    return Arreglo;
 }
@@ -82,6 +82,9 @@ void llenarArreglo(float* arreglo, int tamanio) {
 
 // Función para mostrar todos los elementos del arreglo
 void mostrarArreglo(float* arreglo, int tamanio) {
+    if (tamanio == 0) {
+        cout << "El arreglo está vacío." << endl; //verifica si el arreglo esta vacio
+    } 
     if (arreglo == nullptr) {
         cout << "Error: El arreglo no ha sido creado." << endl;
         return; // Verifica que arreglo no sea nullptr
@@ -96,11 +99,7 @@ void mostrarArreglo(float* arreglo, int tamanio) {
             cout << "]"; // cierra el corchete al final se coloca -1 para que se imprima al final (cuando llega a i == tamanio ya se cierra)
         }
     }
-
-    if (tamanio == 0) {
-        cout << "El arreglo está vacío." << endl; //verifica si el arreglo esta vacio
-    }
-     cout << endl; 
+    cout << endl; 
 }
 
 // Función para encontrar el número mayor
