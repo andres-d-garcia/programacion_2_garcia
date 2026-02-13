@@ -89,11 +89,8 @@ void crearEscuela(Escuela& escuela, int cantEst, int cantMat) {
     escuela.materias = new Materia[cantMat];
     escuela.cantidadEstudiantes = cantEst;
     escuela.cantidadMaterias = cantMat;
-    // TODO: Implementar esta funcion
-    // - Validar que cantEst y cantMat sean positivos
-    // - Crear arreglos dinamicos con new
-    // - Asignar punteros y cantidades en la escuela
 }
+
 void llenarEstudiantes(Escuela& escuela) {
     if (!escuela.estudiantes || escuela.cantidadEstudiantes <= 0) {
         cout << "Error: No hay estudiantes asignados o puntero nulo" << endl;
@@ -101,7 +98,8 @@ void llenarEstudiantes(Escuela& escuela) {
     }
     
     for (int i = 0; i < escuela.cantidadEstudiantes; i++) {
-        cout << "\n--- Estudiante #" << i + 1 << " ---\n";
+        cout << endl;   
+        cout << "--- Estudiante #" << i + 1 << " ---" << endl;
         
         cout << "ID: ";
         cin >> escuela.estudiantes[i].id;
@@ -142,7 +140,9 @@ void llenarEstudiantes(Escuela& escuela) {
 void llenarMaterias(Escuela& escuela) {
     if (escuela.materias != nullptr){
         for(int i = 0; i < escuela.cantidadMaterias; i++){
-            cout << "\n--- Materia #" << i + 1 << " ---\n";
+            cout << endl;
+            cout << "--- Materia #" << i + 1 << " ---";
+            cout << endl;
             cout << "Ingresa el codigo de la materia #" << i + 1 << ": ";
             cin >> escuela.materias[i].codigo;
             cout << "Ingresa el nombre de la materia: ";
@@ -160,9 +160,6 @@ void llenarMaterias(Escuela& escuela) {
     else{
         cout << "Error: nullptr";
     }
-    // TODO: Implementar esta funcion
-    // - Verificar que escuela.materias no sea nullptr
-    // - Pedir codigo, nombre y creditos
     }
 
 // Muestra la escuela completa
@@ -175,22 +172,33 @@ void mostrarEscuela(const Escuela& escuela) {
     cout << "Cantidad de estudiantes: " << escuela.cantidadEstudiantes << endl;
     cout << "Cantidad de Materias: " << escuela.cantidadMaterias << endl;
     cout << endl;
-    cout << "================================== MATERIAS ====================================" << endl;
-            for(int i=0; i < escuela.cantidadMaterias; i++){
-                cout << setw(10) << "Nombre: " << escuela.materias[i].nombre << setw(20) << "Codigo: " << escuela.materias[i].codigo << setw(20) << "Horas crédito: " << escuela.materias[i].creditos << endl;
-            } 
-    cout << "================================== ESTUDIANTES ===================================="  << endl;
-            for(int i=0; i < escuela.cantidadEstudiantes; i++){
-                cout << setw(10) << "ID: " << escuela.estudiantes[i].id << setw(20) << "Nombre: " << escuela.estudiantes[i].nombre << setw(20) << "Promedio: " << escuela.estudiantes[i].promedio << setw(20) << "Código mat. principal: " << escuela.estudiantes[i].codigoMateriaPrincipal << endl;
-            }   
+    cout << "============================================ MATERIAS ============================================" << endl;
+    cout << left << setw(30) << "NOMBRE" << setw(15) << "CODIGO" << setw(15) << "HORAS CREDITO" << endl;
+    cout << "--------------------------------------------------------------------------------------------------" << endl;
+
+    for(int i = 0; i < escuela.cantidadMaterias; i++) {
+        cout << left 
+            << setw(30) << escuela.materias[i].nombre
+            << setw(15) << escuela.materias[i].codigo
+            << setw(15) << escuela.materias[i].creditos << endl;
+    }
+
+    cout << endl;
+    cout << "=========================================== ESTUDIANTES ===========================================" << endl;
+    cout << left 
+        << setw(10) << "ID"
+        << setw(30) << "NOMBRE"
+        << setw(15) << "PROMEDIO"
+        << setw(25) << "CODIGO MAT. PRINCIPAL" << endl;
+    cout << "--------------------------------------------------------------------------------------------------" << endl;
+
+    for(int i = 0; i < escuela.cantidadEstudiantes; i++) {
+        cout << left << setw(10) << escuela.estudiantes[i].id << setw(30) << escuela.estudiantes[i].nombre << setw(15) << fixed << setprecision(2) << escuela.estudiantes[i].promedio
+            << setw(25) << escuela.estudiantes[i].codigoMateriaPrincipal << endl;
+    }
 
         }
     }
-    // TODO: Implementar esta funcion
-    // - Verificar que los punteros no sean nullptr
-    // - Mostrar materias primero y luego estudiantes
-    // - Usar tabla simple con setw
-
 
 // Retorna el indice del estudiante con mejor promedio
 int buscarMejorPromedio(const Escuela& escuela) {
@@ -252,7 +260,6 @@ void liberarEscuela(Escuela& escuela) {
     
     escuela.cantidadEstudiantes = 0;
     escuela.cantidadMaterias = 0;
-    cout << "Memoria liberada correctamente." << endl;
 }
 
 // Muestra el menu principal
